@@ -26,7 +26,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;/*texto em maiusculo*/
-	color: #000000;/*cor do texto*/
+	color: rgb(65, 204, 65);/*cor do texto*/
 	font-weight: bold;/* fonte negrito*/
 	font-size: 22px;/* tamanho da fonte*/
 	text-decoration: none;/*retirar decoração padrão o sublinhado*/
@@ -63,18 +63,18 @@ nav a:hover {
 
 /* alterar a cor da borda dos produtos quando passar o cursor do mouse*/
 .produtos li:hover {
-	border-color:#c71919; /*cor das 4 bordas*/
+	border-color:#ff0000; /*cor das 4 bordas*/
 }
 
 /*comportamento ativo para mudar a cor da borda*/
 .produtos li:active {
-	border-color: #a108bc;/*cor das 4 bordas (active:alterada com o click do mouse)*/
+	border-color: #d26ce4;/*cor das 4 bordas (active:alterada com o click do mouse)*/
 }
 
 /*alterar a fonte e cor do titulo do produto quando passar o cursor do mouse*/
 .produtos li:hover h2{
 	font-size: 40px; /*tamanho da fonte*/
-	color: #a108bc; /* cor*/
+	color: #08b6bc; /* cor*/
 }
 
 .produtos h2 {
