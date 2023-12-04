@@ -10,7 +10,7 @@ header {
 }
 
 main {
-	background: #f0dede;
+	background: #000000;
 }
 
 nav {
@@ -96,7 +96,7 @@ nav a:hover {
 footer {
 	text-align: center; /* centralizado*/
 	/*background: url("bg.jpg");*/
-	background: #c7afaf; /*cor de fundo*/
+	background: #3a09eb; /*cor de fundo*/
 	padding: 40px 0; /*espaçamento interno*/
 }
 .copyright {
