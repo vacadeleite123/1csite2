@@ -1,0 +1,109 @@
+header {
+	background: #c7afaf;/*cor de fundo*/
+	padding: 20px 0;/*espaço em torno de um elemento*/
+}
+
+.caixa {
+	position: relative;/*posicionar elementos na página*/
+	width: 940px;/*largura do elemento*/
+	margin: 0 auto;/*centralizar conteúdo margem automática*/
+}
+
+main {
+	background: #f0dede;
+}
+
+nav {
+	position: absolute;/*posicionar elementos na página*/
+	top: 110px;/*posição do elemento em relação a parte superior da página*/
+	right: 0;/*direita*/
+}
+
+nav li {
+	display: inline;/*elementos que se mantêm em linha*/
+	margin: 0 0 0 15px;/*tamanho de todas as 4 margens*/
+}
+
+nav a {
+	text-transform: uppercase;/*texto em maiusculo*/
+	color: #000000;/*cor do texto*/
+	font-weight: bold;/* fonte negrito*/
+	font-size: 22px;/* tamanho da fonte*/
+	text-decoration: none;/*retirar decoração padrão o sublinhado*/
+}
+
+/*passando o mouse sobre o elemento(pseudo-classes)*/
+nav a:hover { 
+	color:#a108bc;  /* colocando a cor*/
+	text-decoration: underline; /*texto sublinhado quando o mouse estiver posicionado*/
+}
+
+.produtos {
+	width: 940px;/*largura*/
+	margin: 0 auto;/*espaçamento externo*/
+	padding: 50px 0;/*espaçamento interno */
+}
+
+.produtos li {
+	display: inline-block; /*vão se manter posicionados um ao lado do outro, sem quebras de linhas*/
+	text-align: center; /*texto centralizado*/
+	width: 30%; /*largura*/
+	vertical-align: top; /*alinhamento vertical do elemento, parte superios*/
+	margin: 0 1.5%; /*espaçamento externo*/
+	padding: 30px 20px; /*espaçamento interno*/
+	box-sizing: border-box; /**/
+	/*desenvolvimento da borda, as 3 linhas abaixo podemos substituir por uma,
+	linha 56.
+	border-color:#000000 ;  cor da borda
+	border-width: 2px ;     tamanho da borda,largura
+	border-style: solid ;   borda sólida*/
+	border: 2px solid #000000;/*largura estilo e cor de todas as 4 bordas*/
+	border-radius: 10px;/*bordas aredondads*/
+}	
+
+/* alterar a cor da borda dos produtos quando passar o cursor do mouse*/
+.produtos li:hover {
+	border-color:#c71919; /*cor das 4 bordas*/
+}
+
+/*comportamento ativo para mudar a cor da borda*/
+.produtos li:active {
+	border-color: #a108bc;/*cor das 4 bordas (active:alterada com o click do mouse)*/
+}
+
+/*alterar a fonte e cor do titulo do produto quando passar o cursor do mouse*/
+.produtos li:hover h2{
+	font-size: 40px; /*tamanho da fonte*/
+	color: #a108bc; /* cor*/
+}
+
+.produtos h2 {
+	font-size: 30px; /*tamanho da fonte*/
+	font-weight: bold; /*fonte negrito*/
+}
+
+.produto-descricao {
+	font-size: 18px; /*tamanho da fonte*/
+}
+
+.produto-preco {
+	font-size: 22px; /*tamanho da fonte*/
+	font-weight: bold; /*fonte negrito*/
+	margin-top: 10px; /*tamanho da margem superior*/
+}
+
+/*Rodapé*/
+footer {
+	text-align: center; /* centralizado*/
+	/*background: url("bg.jpg");*/
+	background: #c7afaf; /*cor de fundo*/
+	padding: 40px 0; /*espaçamento interno*/
+}
+.copyright {
+	color: #FFFFFF; /*cor*/
+	font-size: 13px; /*tamanho da fonte*/
+	margin: 20px 0 0; /*margin superior 20px*/
+
+}
+
+/*tag de comentário css*/
