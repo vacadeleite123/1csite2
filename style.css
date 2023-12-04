@@ -26,7 +26,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;/*texto em maiusculo*/
-	color: rgb(65, 204, 65);/*cor do texto*/
+	color: rgb(255, 0, 0);/*cor do texto*/
 	font-weight: bold;/* fonte negrito*/
 	font-size: 22px;/* tamanho da fonte*/
 	text-decoration: none;/*retirar decoração padrão o sublinhado*/
